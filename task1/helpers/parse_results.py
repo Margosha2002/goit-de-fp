@@ -1,5 +1,5 @@
 from pyspark.sql.functions import from_json, col
-from get_athlete_results import athlete_event_results_schema
+from helpers.get_athlete_results import athlete_event_results_schema
 
 
 def parse_results(df):

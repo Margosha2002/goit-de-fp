@@ -10,7 +10,7 @@ os.environ["PYSPARK_SUBMIT_ARGS"] = (
 
 spark = (
     SparkSession.builder.appName("JDBCToKafka")
-    .config("spark.jars", "mysql-connector-j-8.0.32.jar")
+    .config("spark.jars", "task1/mysql-connector-j-8.0.32.jar")
     .getOrCreate()
 )
 # Етап 3: Зчитати дані з mysql таблиці athlete_event_results

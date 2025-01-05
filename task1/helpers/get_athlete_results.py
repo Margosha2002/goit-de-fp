@@ -3,7 +3,7 @@ from pyspark.sql.types import (
     StringType,
     IntegerType,
 )
-from config import mysql
+from helpers.config import mysql
 
 
 athlete_event_results_schema = (

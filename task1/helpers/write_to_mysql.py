@@ -1,4 +1,4 @@
-from config import mysql, my_name
+from helpers.config import mysql, my_name
 
 
 def write_stream_to_mysql(table_name):

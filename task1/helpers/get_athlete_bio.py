@@ -5,7 +5,7 @@ from pyspark.sql.types import (
     IntegerType,
 )
 from pyspark.sql.functions import col
-from config import mysql
+from helpers.config import mysql
 
 
 athlete_bio_schema = (

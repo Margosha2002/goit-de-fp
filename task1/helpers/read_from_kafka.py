@@ -1,4 +1,4 @@
-from config import kafka, my_name
+from helpers.config import kafka, my_name
 
 
 def read_from_kafka(spark, topic):
